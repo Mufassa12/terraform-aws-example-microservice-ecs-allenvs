@@ -3,7 +3,7 @@
 data "terraform_remote_state" "aws-example-network" {
   backend = "remote"
   config = {
-    organization = "waypoints"
+    organization = "starter"
     workspaces = {
       name = "aws-example-network"
     }
