@@ -13,7 +13,7 @@ data "terraform_remote_state" "aws-example-network" {
 data "terraform_remote_state" "aws-example-microservice-infra" {
   backend = "remote"
   config = {
-    organization = "waypoints"
+    organization = "hcpco"
     workspaces = {
       name = "aws-example-microservice-infra"
     }
